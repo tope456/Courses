@@ -68,7 +68,7 @@ function App() {
               </div>
               <button
                 onClick={() => setSidebarOpen(true)}
-                className="flex items-center px-4 py-3 bg-white border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200"
+                className="lg:hidden flex items-center px-4 py-3 bg-white border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200"
               >
                 <Filter className="h-5 w-5 mr-2" />
                 <span className="hidden sm:inline">Filters</span>
